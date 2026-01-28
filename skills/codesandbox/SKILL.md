@@ -59,8 +59,8 @@ find .context/csb/{sandbox-id}/ -name "*.tsx"
 If the user wants to run the project locally:
 
 1. Check for `package.json` to identify the project type
-2. Install dependencies: `cd .context/csb/{sandbox-id} && npm install`
-3. Start dev server: `npm run dev` or `npm start`
+2. Install dependencies: `cd .context/csb/{sandbox-id} && pnpm install`
+3. Start dev server: `pnpm dev` or `pnpm start`
 
 ## Bundled Resources
 
