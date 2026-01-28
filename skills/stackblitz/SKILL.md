@@ -58,8 +58,8 @@ find .context/stackblitz/{project-id}/ -name "*.tsx"
 If the user wants to run the project locally:
 
 1. Check for `package.json` to identify the project type
-2. Install dependencies: `cd .context/stackblitz/{project-id} && npm install`
-3. Start dev server: `npm run dev` or `npm start`
+2. Install dependencies: `cd .context/stackblitz/{project-id} && pnpm install`
+3. Start dev server: `pnpm dev` or `pnpm start`
 
 ## Bundled Resources
 
